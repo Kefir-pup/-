@@ -1,0 +1,20 @@
+.products-card {
+    margin: 0 0 30px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    column-gap: 30px;
+}
+
+.products-card__item {
+    width: calc((100% - 30px) / 2);
+}
+
+.products-card--changed {
+    flex-direction: column;
+    gap: 60px 0;
+}
+
+.products-card--changed .products-card__item {
+    width: 100%;
+}
